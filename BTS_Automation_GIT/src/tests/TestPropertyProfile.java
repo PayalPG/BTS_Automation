@@ -37,7 +37,7 @@ public class TestPropertyProfile extends BaseClass{
 		setRestrictionsPage.verifyPropertyName(actualPropertyName);
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void testReviewAndEdit() throws InterruptedException {
 		propertyProfilePage.doLogin();
 		propertyProfilePage.goTOPropertyProfileTab();
